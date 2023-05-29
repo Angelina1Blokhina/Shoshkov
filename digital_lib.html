@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class = "header">
+        <div class = "main_container header_inner">
+            
+            <a href="index.html" class="header_logo"></a>      
+            <div class="header_contact">example@gmail.com</div>
+            <div class="header_language circle_frame ">
+                <img src="img/language.svg" alt="" class="image_language">
+            </div>
+            <div class="header_burgerMenu">
+                <button class="burger circle_frame" aria-label="Открыть меню">
+                    <span class="burger_line"></span>
+                </button>
+                
+                <nav class="burger_menu_inner">
+                <li class="burger_menu_item">
+                    <a href="index.html" class="burger_menu_link title">ГЛАВНАЯ</a>
+                    <p class="menu_number">01</p>
+                </li>
+                <li class="burger_menu_item">
+                    <a href="about.html" class="burger_menu_link title">ОБО МНЕ</a>
+                    <p class="menu_number">02</p>
+                </li>
+                <li class="burger_menu_item">
+                    <a href="digital_lib.html" class="burger_menu_link title">ЦИФРОВАЯ БИБЛИОТЕКА</a>
+                    <p class="menu_number">03</p>
+                </li>
+                <li class="burger_menu_item">
+                    <a href="#" class="burger_menu_link title">БЛОГ</a>
+                    <p class="menu_number">04</p>
+                </li>
+                <li class="burger_menu_item">
+                    <a href="index.html" class="burger_menu_link title">#ОБРАЗОВАТЕЛЬНЫЙ СТАРТАП</a>
+                    <p class="menu_number">05</p>
+                </li>
+            </nav>  
+            </div>
+            
+        </div>
+    </header>
+    <section class="lib_about">
+        <div class="main_container lib_about_inner">
+            <h3 class="title">ЦИФРОВАЯ БИБЛИОТЕКА</h3>
+            <div class="lib_about_content">
+                <div class="lib_about_item">
+                    <p class="text lib_about-text">Цифровая библиотека - это современный формат хранения и распространения информации в электронном виде. 
+                    Это новая возможность получить доступ к книгам, статьям, научным работам, документам и другой информации из любой точки мира.</p>
+                    
+                    <p class="text lib_about-text">Основной принцип цифровой библиотеки - это синхронность и доступность. Благодаря современным технологиям и высокоскоростным интернет-соединениям пользователи могут получить доступ к информации
+                    в режиме реального времени и с любого устройства,
+                    будь то компьютер, планшет или смартфон.
+                    Она также помогает сохранять наследие и культуру,
+                    тем самым предоставляя доступ к историческим документам и культурным достопримечательностям. </p>
+                    <img  src="img/lib_about_1.svg" alt="img" class="lib_about_img" style="width:32.8vw; max-width: 629px;">
+                </div>
+                <div class="lib_about_item">
+                    <p class="text lib_about-text">В заключение, цифровая библиотека - это новый формат хранения и распространения информации, который облегчает доступ и изучение материалов, а также помогает сохранять наследие и культуру. 
+                        Это один из важнейших инструментов для образования и науки и то, что позволяет нам быть в курсе всего нового и интересного.</p>
+                    <img src="img/lib_about_2.svg" alt="" class="lib_about_img" style="max-width: 52.8vw">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="favorites">
+        <div class="main_container">
+            <div class="favorites_top">
+                <div class="title">ИЗБРАННОЕ</div>
+                <div class="favorites_button">
+                    <button class="circle_button arrow_left"></button>
+                    <button class="circle_button arrow_right"></button>
+                </div>
+                
+                <div class="text digital-text">В данном разделе собраны книги, которые я особенно рекомендую
+                    к ознакомлению и прочтению. На меня они произвели большое впечатление - поэтому я рекомендую их вам</div>
+            </div>
+            
+            <div class="slider">
+                <div class="slides">
+                    <a class="slide card" href="#">
+                        <div class="card-body">
+                            <img class="lib_card-img" src="img/lib1.svg" alt="">
+                            <h3 class="lib_card-title">
+                                Искусство государственной стратегии. Мобилизация власти и знания во имя всеобщего блага.  
+                            </h3>
+                            <p class="lib_card-author">Малган Дж.</p>
+                            <div class="article-subject">
+                                <p class="subject-item lib-subject">Политология</p>
+                                <p class="subject-item lib-subject">Геополитика</p>
+                                <p class="subject-item lib-subject">Дипломатия</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="slide card" href="#">
+                        <div class="card-body">
+                            <img class="lib_card-img" src="img/lib2.svg" alt="">
+                            <h3 class="lib_card-title">
+                                Нейронные сети, генетические алгоритмы и нечеткие системы.  
+                            </h3>
+                            <p class="lib_card-author">Рутковская Д., Пилиньский М., Рутковский Л. </p>
+                            <div class="article-subject">
+                                <p class="subject-item lib-subject">нейронные сети</p>
+                            </div>
+                        </div>  
+                    </a>
+                    <a class="slide card" href="#">
+                        <div class="card-body">
+                            <img class="lib_card-img" src="img/lib3.svg" alt="">
+                            <h3 class="lib_card-title">
+                                Теория и методы принятия решений, а также Хроника событий в Волшебных странах.  
+                            </h3>
+                            <p class="lib_card-author">Ларичев О. И.</p>
+                            <div class="article-subject">
+                                <p class="subject-item lib-subject">Принятие решений</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="slide card" href="#">
+                        <div class="card-body">
+                            <img class="lib_card-img" src="img/lib4.svg" alt="">
+                            <h3 class="lib_card-title">
+                                Очерки макроэкономического планирования
+                            </h3>
+                            <p class="lib_card-author">Йохансен Л.</p>
+                            <div class="article-subject">
+                                <p class="subject-item lib-subject">МАКРОЭКОНОМИКА</p>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a class="slide card" href="#">
+                        <div class="card-body">
+                            <img class="lib_card-img" src="img/lib1.svg" alt="">
+                            <h3 class="lib_card-title">
+                                Helloooooo  
+                            </h3>
+                            <p class="lib_card-author">Малган Дж.</p>
+                            <div class="article-subject">
+                                <p class="subject-item lib-subject">Политология</p>
+                                <p class="subject-item lib-subject">Геополитика</p>
+                                <p class="subject-item lib-subject">Дипломатия</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="library">
+        <div class="main_container library_container">
+            <div class="title">БИБЛИОТЕКА</div>
+            <div class="library_top_btn">
+                <button class="library_top_btn_item books_btn button--active">Книги</button>
+                <button class="library_top_btn_item articles_btn">Статьи</button>
+            </div>
+            <div class="topics_container">
+                <div class="topics">
+                    <div class="topic_column">
+                        <button class="subject-item lib-topic" value="Политология">Политология</button>
+                        <button class="subject-item  lib-topic" value="Дипломатия">Дипломатия</button>
+                    </div>
+                    <div class="topic_column">
+                        <button class="subject-item  lib-topic"value="Геополитика">Геополитика</button>
+                        <button class="subject-item  lib-topic"value="МАКРОЭКОНОМИКА">МАКРОЭКОНОМИКА</button>
+                    </div>
+                    <div class="topic_column">
+                        <button class="subject-item  lib-topic"value="Принятие решений">Принятие решений</button>
+                        <button class="subject-item lib-topic"value="нейронные сети">нейронные сети</button>
+                    </div>
+                    <div class="topic_column">
+                        <button class="subject-item lib-topic"value="тЕОРИЯ КАТЕГОРИЙ">тЕОРИЯ КАТЕГОРИЙ</button>
+                        <button class="subject-item lib-topic"value="Экономика">Экономика</button>
+                    </div>
+                    <div class="topic_column">
+                        <button class="subject-item lib-topic"value="Кибернетика">Кибернетика</button>
+                        <button class="subject-item lib-topic"value="Менеджмент">Менеджмент</button>
+                    </div>
+                    <div class="topic_column">
+                        <button class="subject-item lib-topic"value="Математика">Математика</button>
+                        <button class="subject-item lib-topic"value="ноосфера">ноосфера</button>
+                    </div>
+                    <div class="topic_column">
+                        <button class="subject-item lib-topic"value="Статистика">Статистика</button>
+                        <button class="subject-item lib-topic"value="Психология">Психология</button>
+                    </div>
+                    <div class="topic_column">
+                        <button class="subject-item lib-topic"value="Новая тема 1">Новая тема 1</button>
+                        <button class="subject-item lib-topic"value="Новая тема 2">Новая тема 2</button>
+                    </div>  
+                </div>
+                <div class="topic_button">
+                    <button class="circle_button arrow_left"></button>
+                    <button class="circle_button arrow_right"></button>
+                </div>
+            </div>
+
+            
+            <div class="library_cards">
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib1.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Искусство государственной стратегии. Мобилизация власти и знания во имя всеобщего блага.  
+                        </h3>
+                        <p class="lib_card-author">Малган Дж.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Политология</p>
+                            <p class="subject-item lib-subject">Геополитика</p>
+                            <p class="subject-item lib-subject">Дипломатия</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib2.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Нейронные сети, генетические алгоритмы и нечеткие системы.  
+                        </h3>
+                        <p class="lib_card-author">Рутковская Д., Пилиньский М., Рутковский Л. </p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">нейронные сети</p>
+                        </div>
+                    </div>  
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib3.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Теория и методы принятия решений, а также Хроника событий в Волшебных странах.  
+                        </h3>
+                        <p class="lib_card-author">Ларичев О. И.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Принятие решений</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib4.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Очерки макроэкономического планирования
+                        </h3>
+                        <p class="lib_card-author">Йохансен Л.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">МАКРОЭКОНОМИКА</p>
+
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib1.svg" alt="">
+                        <h3 class="lib_card-title">
+                            “Жесткие” и “мягкие” математические модели.  
+                        </h3>
+                        <p class="lib_card-author">Арнольд В.И</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib2.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Математическое моделирование в научном познании., 1969  
+                        </h3>
+                        <p class="lib_card-author">Морозов К.Е.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib3.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Математические методы оптимизации и экономическая теория
+                        </h3>
+                        <p class="lib_card-author">Интрилигатор М.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib4.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Интуиция и математика
+                        </h3>
+                        <p class="lib_card-author">Босс В.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib1.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Введение в математическую логику.
+                        </h3>
+                        <p class="lib_card-author">Колмогоров А.Н., Драгалин А.Г.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib2.svg" alt="">
+                        <h3 class="lib_card-title">
+                            математическое моделирование: идеи. методы. примеры  
+                        </h3>
+                        <p class="lib_card-author">самарский а.а., михайлов А.П </p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib3.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Нелинейный типологический анализ социально-экономической информации
+                        </h3>
+                        <p class="lib_card-author">Перекрест В.Т.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib4.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Анализ данных методами многомерного шкалирования
+                        </h3>
+                        <p class="lib_card-author">Терехина А.Ю.</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib3.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Книга 1
+                        </h3>
+                        <p class="lib_card-author">Автор 1</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="books card" href="#">
+                    <div class="card-body">
+                        <img class="lib_card-img" src="img/lib3.svg" alt="">
+                        <h3 class="lib_card-title">
+                            Книга 2
+                        </h3>
+                        <p class="lib_card-author">Автор 2</p>
+                        <div class="article-subject books-subject">
+                            <p class="subject-item lib-subject">Математика</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="button-center">
+                <button class="show_more">ЧИТАТЬ БОЛЬШЕ</button>
+            </div>
+        </div>
+    </section>
+    <section class="connection">
+        <div class="main_container connection_inner">
+                <h3 class="title margin_title">ВЫ ЛЮБИТЕ КНИГИ ТАКЖЕ КАК И Я?
+                    НАТКНУЛИСЬ НА ИНТЕРЕСНУЮ СТАТЬЮ
+                    И ХОТИТЕ ПОРЕКОМЕНДОВАТЬ ЕЕ МНЕ?<span class="frame_text frame_text_right">nick_shoshkov@hotmail.com</span></h3>
+        </div>
+    </section>
+</body>
+</html>

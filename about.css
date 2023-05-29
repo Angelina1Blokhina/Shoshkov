@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header,  aside{display: block;}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1, h2, h3, h4, h5, h6{font-size:inherit; font-weight: 400;}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/*  */
+.main_container_about{
+    width: 100%;
+    max-width: 1920px;
+    padding-left:80px;
+    padding-right:80px;
+    padding-bottom: 150px;
+    
+}
+
+.title{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 103px;
+    color: #282828;
+}
+.text{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+.satrt_title{
+    padding-top: 47px;
+    padding-bottom: 90px;
+}
+.name-title{
+    padding-top: 150px;
+}
+.frame_text{
+    position: relative;
+    left:40px;
+    top:-18px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: 2px solid #282828;
+    border-radius: 81px;
+    padding: 12px 30px;
+}
+.frame_text + .frame_text{
+    margin-left:30px ;
+}
+.start_text_inner{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    
+}
+.start_text + .start_text{
+    margin-left: 30px;
+}
+.start_text{
+    color: #282828;
+    width: 45%;
+}
+.experience_inner{
+    background-color: #282828;
+}
+.experience_top{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+}
+.experience_title{
+    color: #FFFFFF !important;
+}
+.experience_top_text{
+    color: #FFFFFF;
+    width: 45%;
+}
+.experience_info{
+    padding-top: 70px;
+}
+.experience_info:nth-last-child(1){
+    border-bottom: 1px solid #FFFFFF;
+}
+.job{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+        
+    
+}
+.job_name{
+    width: 37%;
+}
+.job_date{
+    width: 31%;
+    padding-left: 18.5%;
+}
+.job_content {
+	transition: max-height 0.2s;
+    display: none;
+	/* overflow: hidden; */
+    /* width: 100%; */
+}
+.job_content[aria-hidden="true"] {
+    max-height: 0;
+    /* width: 0%; */
+  }
+
+.job_content[aria-hidden="false"] {
+    max-height: var(--containerHeight, 1000px);
+    display: block;
+    /* width: 100%; */
+  }
+.job_button {
+    margin-left: 29%;
+    margin-right: 0px; 
+	font-size: 1em;
+	padding: 0 20px;
+	min-height: 45px;
+	border: 1px solid #FFFFFF;
+	border-radius: 90px;
+	background-color: transparent;
+	color: #212121;
+}
+/* .job_button:focus{
+    border: 2px solid #222;
+	outline: 0;
+} */
+.job_button[data-drawer-showing="true"]
+{
+		
+		border: 2px solid transparent;
+}
+.plans_top{
+    padding-top: 150px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.text_plans{
+    width: 45%;
+}
+.plans_img{
+    display: flex;
+    justify-content: space-between;
+}
